@@ -1,0 +1,47 @@
+{
+  documentation: "http://datasheets.maximintegrated.com/en/ds/MAX2112.pdf"
+  symbol:
+    width: 600
+    pins: [
+      [1, "VCC_RF2", "power", "l"]
+      [2, "VCC_RF1", "power", "l"]
+      [6, "VCC_LO", "power", "l"]
+      [7, "VCC_VCO", "power", "l"]
+      [13, "VCCSYN", "power", "l"]
+      [16, "VCC_DIG", "power", "l"]
+      [25, "VCC_BB", "power", "l"]
+      [3, "GND", "power", "n"]
+      [4, "RFIN", "in", "l"]
+      [5, "GC1", "in", "l"]
+      [9, "VTUNE", "in", "l"]
+      [10, "GND", "power", "n"]
+      [11, "GND", "power", "n"]
+      [12, "CPOUT", "out", "l"]
+      [8, "VCOBYP", "passive", "l"]
+      [17, "QOUT+", "out", "r"]
+      [18, "QOUT-", "out", "r"]
+      [19, "IOUT+", "out", "r"]
+      [20, "IOUT-", "out", "r"]
+      [21, "IDC+", "passive", "r"]
+      [22, "IDC-", "passive", "r"]
+      [23, "QDC+", "passive", "r"]
+      [24, "QDC-", "passive", "r"]
+      [26, "SDA", "io", "r"]
+      [27, "SCL", "in", "r"]
+      [14, "XTAL", "in", "r"]
+      [15, "REFOUT", "out", "r"]
+      [28, "ADDR", "passive", "l"]
+      [29, "GND", "power", "n"]
+    ]
+  package:
+    qfn:
+      pins: 28
+      A: [0.8, 0.7]
+      D: [5.1, 4.9]
+      E: [5.1, 4.9]
+      D2: [3.35, 3.15]
+      E2: [3.35, 3.15]
+      e: 0.5
+      b: [0.3, 0.2]
+      L: [0.65, 0.45]
+}

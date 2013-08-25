@@ -1,0 +1,11 @@
+datasheets
+design notes
+footprints
+symbols
+*.bak
+*.bck
+*.swp
+*-cache.lib
+*.kicad_pcb-bak
+gerbers
+helot.xml
