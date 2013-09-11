@@ -68,10 +68,135 @@
       [64, "3.3V", "supply", "r"]
     ]
   package:
-    rows:
-      row:
-        start: [0, 0]
-        pitch: [1, 0]
-        count: 11
-        back: true
+    custom:
+      refdes: [0, 1.75]
+      rows: [
+        {
+          start: [-16.5, -3.5]
+          pitch: [1, 0]
+          size: [0.7, 4.2]
+          from: 1
+          step: 2
+          count: 11
+          back: false
+          square: true
+        }
+        {
+          start: [-15.5, -3.5]
+          pitch: [1, 0]
+          size: [0.7, 4.2]
+          from: 4
+          step: 2
+          count: 10
+          back: true
+          square: true
+        }
+        {
+          start: [-3.5, -3.5]
+          pitch: [1, 0]
+          size: [0.7, 4.2]
+          from: 23
+          step: 2
+          count: 21
+          back: false
+          square: true
+        }
+        {
+          start: [-3.5, -3.5]
+          pitch: [1, 0]
+          size: [0.7, 4.2]
+          from: 24
+          step: 2
+          count: 20
+          back: true
+          square: true
+        }
+      ]
+      pads: [
+        {
+          num: 2
+          location: [-16.5, -3.5]
+          size: [0.7, 3.2]
+          square: true
+          back: true
+        }
+        {
+          num: 64
+          location: [16.5, -3.5]
+          size: [0.7, 3.2]
+          square: true
+          back: true
+        }
+      ]
+      silk: [
+        {
+          start: [-17.15, -1]
+          end: [-17.15, -8.5]
+          layer: 'edge'
+          width: 0.1
+        }
+        {
+          start: [-16.15, 0]
+          end: [-6.15, 0]
+          layer: 'edge'
+          width: 0.1
+        }
+        {
+          start: [-16.15, 0]
+          end: [-17.15, -1]
+          layer: 'edge'
+          width: 0.1
+        }
+        {
+          start: [-5.95, 0]
+          end: [-4.95, -1]
+          layer: 'edge'
+          width: 0.1
+        }
+        {
+          start: [-4.95, -1]
+          end: [-4.95, -7.45]
+          layer: 'edge'
+          width: 0.1
+        }
+        {
+          start: [-3.05, -1]
+          end: [-3.05, -7.45]
+          layer: 'edge'
+          width: 0.1
+        }
+        {
+          start: [-3.05, -1]
+          end: [-2.05, 0]
+          layer: 'edge'
+          width: 0.1
+        }
+        {
+          start: [-2.05, 0]
+          end: [16.15, 0]
+          layer: 'edge'
+          width: 0.1
+        }
+        {
+          start: [16.15, 0]
+          end: [17.15, -1]
+          layer: 'edge'
+          width: 0.1
+        }
+        {
+          start: [17.15, -1]
+          end: [17.15, -8.5]
+          layer: 'edge'
+          width: 0.1
+        }
+      ]
+      arc: [
+        {
+          location: [-4, -7.45]
+          start: [-4.95, -7.45]
+          angle: 180
+          layer: 'edge'
+          width: 0.1
+        }
+      ]
 }

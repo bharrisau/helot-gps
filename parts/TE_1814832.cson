@@ -1,0 +1,42 @@
+{
+  symbol:
+    pins: [
+      [1, "ANT", "io", "l"]
+      [2, "GND", "power", "n"]
+    ]
+  package:
+    custom:
+      refdes: [0, -5]
+      pads: [
+        {
+          num: 1
+          location: [0, 0]
+          size: 2.25
+          drill: 1.65
+        }
+        {
+          num: 2
+          location: [-2.04, -2.04]
+          size: 2.4
+          drill: 1.75
+        }
+        {
+          num: 2
+          location: [2.04, -2.04]
+          size: 2.4
+          drill: 1.75
+        }
+        {
+          num: 2
+          location: [-2.04, 2.04]
+          size: 2.4
+          drill: 1.75
+        }
+        {
+          num: 2
+          location: [2.04, 2.04]
+          size: 2.4
+          drill: 1.75
+        }
+      ]
+}
