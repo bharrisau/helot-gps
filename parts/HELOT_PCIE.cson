@@ -115,14 +115,14 @@
       pads: [
         {
           num: 2
-          location: [-16.5, -3.5]
+          location: [-16.5, -4]
           size: [0.7, 3.2]
           square: true
           back: true
         }
         {
           num: 64
-          location: [16.5, -3.5]
+          location: [16.5, -4]
           size: [0.7, 3.2]
           square: true
           back: true
@@ -131,13 +131,13 @@
       silk: [
         {
           start: [-17.15, -1]
-          end: [-17.15, -8.5]
+          end: [-17.15, -8.15]
           layer: 'edge'
           width: 0.1
         }
         {
           start: [-16.15, 0]
-          end: [-6.15, 0]
+          end: [-6.95, 0]
           layer: 'edge'
           width: 0.1
         }
@@ -148,31 +148,31 @@
           width: 0.1
         }
         {
-          start: [-5.95, 0]
-          end: [-4.95, -1]
+          start: [-6.95, 0]
+          end: [-5.95, -1]
           layer: 'edge'
           width: 0.1
         }
         {
-          start: [-4.95, -1]
-          end: [-4.95, -7.45]
+          start: [-5.95, -1]
+          end: [-5.95, -7.55]
           layer: 'edge'
           width: 0.1
         }
         {
-          start: [-3.05, -1]
-          end: [-3.05, -7.45]
+          start: [-4.05, -1]
+          end: [-4.05, -7.55]
           layer: 'edge'
           width: 0.1
         }
         {
-          start: [-3.05, -1]
-          end: [-2.05, 0]
+          start: [-4.05, -1]
+          end: [-3.05, 0]
           layer: 'edge'
           width: 0.1
         }
         {
-          start: [-2.05, 0]
+          start: [-3.05, 0]
           end: [16.15, 0]
           layer: 'edge'
           width: 0.1
@@ -185,16 +185,30 @@
         }
         {
           start: [17.15, -1]
-          end: [17.15, -8.5]
+          end: [17.15, -8.15]
           layer: 'edge'
           width: 0.1
         }
       ]
       arc: [
         {
-          location: [-4, -7.45]
-          start: [-4.95, -7.45]
+          location: [-5, -7.55]
+          start: [-5.95, -7.55]
           angle: 180
+          layer: 'edge'
+          width: 0.1
+        }
+        {
+          location: [-18, -8.15]
+          start: [-18, -9]
+          angle: 90
+          layer: 'edge'
+          width: 0.1
+        }
+        {
+          location: [18, -8.15]
+          start: [17.15, -8.15]
+          angle: 90
           layer: 'edge'
           width: 0.1
         }
